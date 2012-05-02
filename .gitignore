@@ -1,0 +1,6 @@
+composer.phar
+composer.lock
+storage/cache
+storage/logs
+storage/sessions
+vendor
