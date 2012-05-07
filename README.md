@@ -33,3 +33,9 @@ include an example vhost below.
 	</VirtualHost>
 
 If you need more help with vhost setup checkout the [apache docs](http://httpd.apache.org/docs/2.0/vhosts/examples.html).
+
+
+# Credits
+
+This example is essential a hard fork of https://github.com/enygma/behat-fuel-rest by Chris Cornutt.
+Most of the code in RestContext.php is from the before mentioned repo's FeatureContextRest.php refactored to be used as a sub context.
