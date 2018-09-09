@@ -16,7 +16,7 @@ You will need to install composer first.
 	curl -s http://getcomposer.org/installer | php
 	php composer.phar install
 
-Now setup a vhost for foo.local pointing the the project's public dir. I'll go ahead and
+Now setup a vhost for foo.local pointing to the project's public dir. I'll go ahead and
 include an example vhost below.
 
 	<VirtualHost *:80>
@@ -37,5 +37,5 @@ If you need more help with vhost setup checkout the [apache docs](http://httpd.a
 
 # Credits
 
-This example is essential a hard fork of https://github.com/enygma/behat-fuel-rest by Chris Cornutt.
-Most of the code in RestContext.php is from the before mentioned repo's FeatureContextRest.php refactored to be used as a sub context.
+This example is essentially a hard fork of https://github.com/enygma/behat-fuel-rest by Chris Cornutt.
+Most of the code in RestContext.php is from that repo's FeatureContextRest.php refactored to be used as a sub context.
